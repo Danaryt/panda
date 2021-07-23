@@ -16,7 +16,7 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
     .setThumbnail(` `)
-    .setTitle(`**Panda Bot ✨**`)
+    .setTitle(`**Face Bot ✨**`)
     .setDescription(`
  **|** **User Commands**
 > \`invite\` - \`support\` - \`about\`
@@ -60,8 +60,8 @@ module.exports = {
 
 
 **|** **Links**
-[Support](https://discord.gg/progresshome)
-[Invite](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=8&scope=bot)
+[Support](https://discord.gg/zDqv4C6weU)
+[Invite](https://discord.com/api/oauth2/authorize?client_id=868193234709528586&permissions=8&scope=bot)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("RANDOM");
